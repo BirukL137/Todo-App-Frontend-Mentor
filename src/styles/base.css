@@ -1,0 +1,64 @@
+/* ---------------------- */
+/* Google fonts           */
+/* ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* ---------------------- */
+/* Base Reset / Normalize */
+/* ---------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/* ---------------------- */
+/* Design Tokens          */
+/* ---------------------- */
+:root {
+  /* Colors (Light Theme) */
+  --color-bg: hsl(0, 0%, 98%);
+  --color-text: hsl(235, 19%, 35%);
+  --color-muted: hsl(236, 9%, 61%);
+  --color-border: hsl(236, 44%, 92%);
+  --color-accent: hsl(220, 98%, 61%);
+  --color-item-bg: #fafafa;
+
+  --check-background: linear-gradient(
+    45deg,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+
+  /* Spacing */
+  --space-200: 0.5rem;
+  --space-300: 0.75rem;
+  --space-400: 1rem;
+  --space-500: 1.5rem;
+
+  /* Radius */
+  --radius-200: 6px;
+  --radius-300: 10px;
+}
+
+/* ---------------------- */
+/* Dark Theme             */
+/* ---------------------- */
+body[data-theme="dark"] {
+  --color-bg: hsl(235, 21%, 11%);
+  --color-text: hsl(234, 39%, 85%);
+  --color-muted: hsl(234, 11%, 52%);
+  --color-border: hsl(237, 14%, 26%);
+  --color-item-bg: #25273c;
+}
