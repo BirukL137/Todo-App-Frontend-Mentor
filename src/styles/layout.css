@@ -1,5 +1,30 @@
 .app {
+  position: relative;
+  z-index: 0;
   max-width: 600px;
   margin: 0 auto;
-  padding: var(--space-500);
+  padding: var(--space-800) var(--space-600);
+  min-height: 100vh;
+}
+
+.app-bg__image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 200px;
+  transform: translateX(-50%);
+  background-image: var(--color-bg-image);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding: var(--space-900) var(--space-400);
+  }
+  .app-bg__image {
+    height: 300px;
+  }
 }
