@@ -5,9 +5,8 @@ Features drag-and-drop reordering, light/dark mode, filtering, and persistent st
 
 ## 🚀 Live Demo
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-vxOxYkDTEA)
-- Live Demo: [Vercel](https://todo-app-frontend-mentor-lake.vercel.app/)
-👉 ****
+- [Frontend Mentor](https://www.frontendmentor.io/solutions/todo-app)
+- [Vercel](https://todo-app-frontend-mentor-lake.vercel.app/)
 
 ## 📸 Screenshot
 
