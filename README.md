@@ -12,7 +12,7 @@ Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 
 ## 📸 Screenshot
 
-![Todo App Screenshot](./screenshots/screenshot-desktop-dark.png) 
+![Todo App Screenshot](/screenshots/screenshot-desktop-dark.png) 
 
 ## 🧠 Features
 
