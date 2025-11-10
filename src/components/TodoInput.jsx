@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTodos } from "../context/TodosContext";
+import useTodos from "../hooks/useTodos";
 
 export default function TodoInput() {
   const [text, setText] = useState("");
@@ -24,7 +24,7 @@ export default function TodoInput() {
 
   return (
     <form className="todo-input" onSubmit={handleSubmit}>
-      <span className="todo-input__check-ring"></span>
+      <span className="todo-input__check-placeholder"></span>
       <input
         className="todo-input__field"
         type="text"
