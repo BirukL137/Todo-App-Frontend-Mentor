@@ -6,19 +6,13 @@ This project focuses on component architecture, state management, UI polish, acc
 
 Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 
----
-
 ## 🚀 Live Demo
 
 👉 **https://todo-app-frontend-mentor-lake.vercel.app/**
 
----
-
 ## 📸 Screenshot
 
 ![Todo App Screenshot](./screenshots/screenshot-desktop-dark.png) 
-
----
 
 ## 🧠 Features
 
@@ -35,8 +29,6 @@ Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 - 🎨🎛️ **Reorder todos** via drag-and-drop
 - 🎨 **Polished animations** for add/remove interactions
 
----
-
 ## 🧑‍💻 Tech Stack
 
 | Area            | Choice                        | Reasoning |
@@ -48,24 +40,20 @@ Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 | Persistence     | localStorage                 | Saves user state automatically |
 | Styling         | Custom CSS variables         | Light/Dark theme + clear maintainability |
 
----
-
 ## 🧠 State Logic (Reducer Patterns)
 
 The reducer defines clear, predictable actions:
 
-add → add new todo
-toggle → mark todo complete / active
-delete → remove a todo
-clearCompleted→ remove all completed todos
-setFilter → switch between All / Active / Completed
-reorder → drag & drop list rearranging
-toggleTheme → switch light / dark mode
+- add → add new todo
+- toggle → mark todo complete / active
+- delete → remove a todo
+- clearCompleted→ remove all completed todos
+- setFilter → switch between All / Active / Completed
+- reorder → drag & drop list rearranging
+- toggleTheme → switch light / dark mode
 
 
 This ensures the UI is always a **pure function of state** → easy to debug, scale, and test.
-
----
 
 ## 🎛️ Drag & Drop Implementation
 
@@ -77,6 +65,7 @@ dispatch({
   startIndex: result.source.index,
   endIndex: result.destination.index,
 });
+```
 
 This provides:
 
@@ -123,7 +112,7 @@ The app will start on http://localhost:5173
 
 ---
 
-✅ Status
+### Continued development
 
 Project: Completed
 But room for enhancements like:
@@ -134,9 +123,7 @@ But room for enhancements like:
 
 - Stats dashboard
 
----
-
-✨ Useful Concepts Practiced
+### Useful Concepts Practiced
 
 Component-based UI architecture
 
@@ -152,21 +139,17 @@ Responsive layout engineering
 
 Visual hierarchy & spacing rhythm
 
----
-
-📄 License
+## License
 
 MIT License — free to use & modify.
 
----
+## Author
 
-🙇 Acknowledgments
+- Frontend Mentor - [@BirukL137](https://www.frontendmentor.io/profile/BirukL137)
+- GitHub - [@BirukL137](https://github.com/BirukL137/Todo-App-Frontend-Mentor/)
 
-Designs are provided by Frontend Mentor.
-Code and implementation by Biruk Lemma.
+## Acknowledgments
 
----
-
-🏁 Final Thoughts
+Big thanks to Frontend Mentor for the challenge and the community for feedback 🙌
 
 ⭐ If you found this project useful, consider giving it a star!
