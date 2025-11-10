@@ -1,6 +1,6 @@
-import { createContext, useReducer, useContext, useEffect } from "react";
+import { createContext, useReducer, useEffect } from "react";
 
-const TodosContext = createContext();
+export const TodosContext = createContext();
 
 const initialState = {
   todos: JSON.parse(localStorage.getItem("todos")) || [],
@@ -44,7 +44,7 @@ function reducer(state, action) {
       return { ...state, theme: state.theme === "light" ? "dark" : "light" };
 
     default:
-      return state.todos;
+      return state;
   }
 }
 
@@ -67,5 +67,3 @@ export function TodosProvider({ children }) {
     </TodosContext.Provider>
   );
 }
-
-export const useTodos = () => useContext(TodosContext);
