@@ -1,14 +1,13 @@
-# Todo App — Frontend Mentor Challenge (React)
+# Modern Todo App — Frontend Mentor Challenge (React)
 
-A clean, modern, and fully-interactive Todo application built from scratch using React.  
-
-This project focuses on component architecture, state management, UI polish, accessibility, and user experience.  
-
-Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
+A clean, accessible, and themeable Todo application built with React.  
+Features drag-and-drop reordering, light/dark mode, filtering, and persistent state storage.
 
 ## 🚀 Live Demo
 
-👉 **https://todo-app-frontend-mentor-lake.vercel.app/**
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-vxOxYkDTEA)
+- Live Demo: [Vercel](https://todo-app-frontend-mentor-lake.vercel.app/)
+👉 ****
 
 ## 📸 Screenshot
 
@@ -40,7 +39,7 @@ Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 | Persistence     | localStorage                 | Saves user state automatically |
 | Styling         | Custom CSS variables         | Light/Dark theme + clear maintainability |
 
-## 🧠 State Logic (Reducer Patterns)
+### 🧠 State Logic (Reducer Patterns)
 
 The reducer defines clear, predictable actions:
 
@@ -55,7 +54,7 @@ The reducer defines clear, predictable actions:
 
 This ensures the UI is always a **pure function of state** → easy to debug, scale, and test.
 
-## 🎛️ Drag & Drop Implementation
+### 🎛️ Drag & Drop Implementation
 
 Reorder behavior is powered by:
 
@@ -77,9 +76,7 @@ This provides:
 
 - State persistence
 
----
-
-💡 What I Learned
+### What I Learned
 
 - How to design and structure a React app without external UI frameworks
 
@@ -90,8 +87,6 @@ This provides:
 - Theme architecture using CSS variables + DOM attributes
 
 - UI polish techniques (hover states, animations, spacing scale)
-
----
 
 ## ⚙️ How to Run Locally
 
@@ -123,21 +118,13 @@ But room for enhancements like:
 
 - Stats dashboard
 
-### Useful Concepts Practiced
+### Useful resources
 
-Component-based UI architecture
+- [React Docs – Managing State](https://react.dev/learn/managing-state) - Helped structure the todo state, updates, and list rendering.
+- [CSS Custom Properties (Variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Essential for building the light and dark theme system in a scalable way.
+- [Beautiful and Accessible Drag and Drop with react-beautiful-dnd](https://egghead.io/lessons/react-course-introduction-beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd) - A maintained fork of react-beautiful-dnd, used here for smooth drag & drop reordering.
+- [Local Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Allows todos to persist across page refreshes.
 
-State management (React useState)
-
-Prop drilling patterns
-
-Keyboard accessibility & :focus-visible
-
-Theme switching using CSS custom properties
-
-Responsive layout engineering
-
-Visual hierarchy & spacing rhythm
 
 ## License
 
