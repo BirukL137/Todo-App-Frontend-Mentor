@@ -303,7 +303,7 @@
 }
 
 .todo-empty {
-  margin-top: var(--space-900);
+  margin-top: var(--space-600);
   text-align: center;
   color: #fff;
   font-size: 1rem;
