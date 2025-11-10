@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useTodos } from "../context/TodosContext";
+import useTodos from "../hooks/useTodos";
 
 export default function TodoItem({ todo }) {
   const { dispatch } = useTodos();
@@ -14,24 +14,23 @@ export default function TodoItem({ todo }) {
   };
 
   return (
-    <div ref={ref} className="todo-item" data-completed={todo.completed}>
+    <div ref={ref} className={`todo-item ${todo.completed ? "completed" : ""}`}>
       <button
-        className="todo-item__circle"
+        className="todo-check"
         onClick={() => dispatch({ type: "toggle", id: todo.id })}
-      ></button>
-      <p
-        className={`todo-item__text ${
-          todo.completed ? "todo-item__text--completed" : ""
-        }`}
+        aria-label="Mark complete"
       >
-        {todo.text}
-      </p>
+        {todo.completed && (
+          <img src="/assets/icon-check.svg" alt="Complete task" />
+        )}
+      </button>
+      <p className="todo-text">{todo.text}</p>
       <button
-        className="todo-item__delete"
+        className="todo-delete"
         aria-label="Delete task"
         onClick={handleDelete}
       >
-        ×
+        <img src="/assets/icon-cross.svg" alt="Delete task" />
       </button>
     </div>
   );
