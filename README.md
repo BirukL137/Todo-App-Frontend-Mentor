@@ -1,14 +1,39 @@
 # Todo App — Frontend Mentor Challenge (React)
 
 A clean, modern, and fully-interactive Todo application built from scratch using React.  
+
 This project focuses on component architecture, state management, UI polish, accessibility, and user experience.  
+
 Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 
 ---
 
 ## 🚀 Live Demo
-**https://your-demo-link-here**  
-(Replace with your deployed URL)
+
+👉 **https://todo-app-frontend-mentor-lake.vercel.app/**
+
+---
+
+## 📸 Screenshot
+
+![Todo App Screenshot](./screenshots/screenshot-desktop-dark.png) 
+
+---
+
+## 🧠 Features
+
+- ✅ Add new todos
+- ✏️ Mark todos as completed
+- 🗑 Delete individual todos
+- 🧹 Clear all completed todos
+- 🎛 Filter by: **All**, **Active**, **Completed**
+- 🌓 **Light / Dark** theme toggle (remembers user preference)
+- 📱 Fully responsive:
+  - One layout for **desktop**
+  - Smart simplified layout for **mobile**
+- 🖱 Smooth hover, focus and keyboard accessibility support
+- 🎨🎛️ **Reorder todos** via drag-and-drop
+- 🎨 **Polished animations** for add/remove interactions
 
 ---
 
@@ -22,60 +47,6 @@ Includes drag-and-drop reordering, theme toggle, filters, and persistent state.
 | Drag & Drop     | @hello-pangea/dnd            | Maintained successor to react-beautiful-dnd |
 | Persistence     | localStorage                 | Saves user state automatically |
 | Styling         | Custom CSS variables         | Light/Dark theme + clear maintainability |
-
----
-
-## ✨ Features
-
-- Add new todos
-- Mark todos as completed
-- Delete todos
-- Clear all completed todos
-- **Filter by:** All / Active / Completed
-- **Reorder todos** via drag-and-drop
-- **Persistent state** (survives refresh)
-- **Light / Dark theme toggle**
-- **Polished animations** for add/remove interactions
-- Fully responsive layout
-
----
-
-## 🎨 Screenshots
-
-| Light Mode | Dark Mode |
-|-----------|-----------|
-| *(add screenshot)* | *(add screenshot)* |
-
-| Drag & Drop | Filters |
-|-------------|---------|
-| *(add screenshot)* | *(add screenshot)* |
-
-> You can capture these using your browser’s built-in screenshot or `Ctrl+Shift+S` region capture.
-
----
-
-## 🧱 Project Structure
-
-src
-├── components
-│ ├── TodoFooter.jsx
-│ ├── TodoInput.jsx
-│ ├── TodoItem.jsx
-│ ├── TodoList.jsx
-│ └── ThemeToggle.jsx
-├── context
-│ └── TodosContext.jsx
-├── hooks
-│ └── useTodos.jsx
-├── styles
-│ ├── base.css
-│ ├── components.css
-│ └── layout.css
-└── App.jsx
-
-
-- **Logical separation of UI + state** improves readability and scalability.
-- `TodosContext` centralizes app behavior and ensures consistent UI updates.
 
 ---
 
@@ -131,12 +102,24 @@ This provides:
 
 - UI polish techniques (hover states, animations, spacing scale)
 
-🏁 Running Locally
+---
 
-git clone https://github.com/BirukL137/todo-app-frontend-mentor.git
-cd todo-app
+## ⚙️ How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/BirukL137/Todo-App-Frontend-Mentor.git
+
+cd Todo-App-Frontend-Mentor
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
+```
+
+The app will start on http://localhost:5173
 
 ---
 
@@ -153,10 +136,37 @@ But room for enhancements like:
 
 ---
 
+✨ Useful Concepts Practiced
+
+Component-based UI architecture
+
+State management (React useState)
+
+Prop drilling patterns
+
+Keyboard accessibility & :focus-visible
+
+Theme switching using CSS custom properties
+
+Responsive layout engineering
+
+Visual hierarchy & spacing rhythm
+
+---
+
 📄 License
 
 MIT License — free to use & modify.
 
 ---
+
+🙇 Acknowledgments
+
+Designs are provided by Frontend Mentor.
+Code and implementation by Biruk Lemma.
+
+---
+
+🏁 Final Thoughts
 
 ⭐ If you found this project useful, consider giving it a star!
