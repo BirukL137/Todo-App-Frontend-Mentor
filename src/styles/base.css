@@ -88,13 +88,7 @@ body {
   outline: none;
 }
 
-:focus-visible {
-  outline: none;
-  box-shadow: var(--focus-ring);
-}
-
 button,
-input,
 .todo-check,
 .todo-delete,
 .todo-filters button,
@@ -103,7 +97,6 @@ input,
 }
 
 button:focus-visible,
-input:focus-visible,
 .todo-check:focus-visible,
 .todo-delete:focus-visible,
 .todo-filters button:focus-visible,
