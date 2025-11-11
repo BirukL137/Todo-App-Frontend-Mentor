@@ -5,7 +5,7 @@ Features drag-and-drop reordering, light/dark mode, filtering, and persistent st
 
 ## 🚀 Live Demo
 
-- [Frontend Mentor](https://www.frontendmentor.io/solutions/todo-app)
+- [Frontend Mentor](https://www.frontendmentor.io/solutions/modern-todo-app-IFMjtYnCGc)
 - [Vercel](https://todo-app-frontend-mentor-lake.vercel.app/)
 
 ## 📸 Screenshot
@@ -64,6 +64,7 @@ dispatch({
   endIndex: result.destination.index,
 });
 ```
+
 
 This provides:
 
