@@ -24,7 +24,7 @@ Features drag-and-drop reordering, light/dark mode, filtering, and persistent st
   - One layout for **desktop**
   - Smart simplified layout for **mobile**
 - 🖱 Smooth hover, focus and keyboard accessibility support
-- 🎨🎛️ **Reorder todos** via drag-and-drop
+- 🎛️ **Reorder todos** via drag-and-drop
 - 🎨 **Polished animations** for add/remove interactions
 
 ## 🧑‍💻 Tech Stack
